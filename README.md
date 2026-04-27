@@ -1,4 +1,4 @@
-# TP Aprendizaje por Refuerzo — LunarLander-v2
+# TP Aprendizaje por Refuerzo — LunarLander-v3
 
 Comparación de tres algoritmos de RL aplicados al problema de aterrizaje lunar:
 
