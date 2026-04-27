@@ -28,7 +28,7 @@ pip install -r requirements.txt
 python train_and_compare.py
 ```
 
-El script entrena los 3 agentes con 3 seeds diferentes (configurable) y genera:
+El script entrena los 3 agentes con 3 seeds diferentes y genera:
 
 - `results/comparacion_agentes.png` — Curvas de aprendizaje + tabla de métricas
 - `results/estabilidad_seeds.png` — Variabilidad entre seeds por agente
@@ -54,8 +54,4 @@ El script entrena los 3 agentes con 3 seeds diferentes (configurable) y genera:
 - `SOLVED_THRESHOLD`: reward para "resolver" el env (default: 200)
 - `WINDOW`: ventana de media móvil (default: 50)
 
-## Resultados esperados
 
-- **Q-Learning**: reward final ~-100 a 0. No resuelve el problema por la discretización.
-- **DQN**: reward final ~200+. Resuelve en ~400-600 episodios.
-- **REINFORCE**: reward final ~100-200. Más lento y con mayor varianza que DQN.
